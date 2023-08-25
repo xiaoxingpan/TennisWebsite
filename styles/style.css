@@ -1,0 +1,340 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  margin: 0px;
+  width: 100%;
+}
+
+body {
+  width: auto;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: auto;
+  height: 100%;
+  padding: 0px;
+  padding-left: 50px;
+  margin: 0px;
+  background-color: blue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+p {
+  font-family: verdana;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.topBanner {
+  color: whitesmoke;
+  width: 100%;
+  vertical-align: top;
+  text-align: right;
+  font-size: 23vw;
+  margin: 0px;
+  padding: 0px;
+}
+
+#bannerVid {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.topBannerText {
+  text-align: left;
+  font-size: 1em;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  margin-left: 0.1em;
+}
+
+.topBannerSubText {
+  font-size: 0.15em;
+  text-align: left;
+  margin-top: -3.3em;
+  margin-left: 1em;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.secondBanner {
+  background-color: rgb(240, 240, 0);
+  border: lightgrey 2px solid;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 15px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 3.5em;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgb(53, 53, 53);
+}
+
+.contentSection {
+  width: auto;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  background-color: lightblue;
+  /*background-image: url(./../images/tennisBalls.jpg);*/
+  padding-bottom: 26px;
+}
+
+.creditsBanner {
+  background-color: rgb(240, 240, 0);
+  border: lightgrey 2px solid;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  padding: 15px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 3.5em;
+  text-align: left;
+  text-shadow: 0px 0px 8px rgb(53, 53, 53);
+}
+
+.fourthBanner {
+  background-color: rgb(240, 240, 0);
+  border: lightgrey 2px solid;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-left: 30px;
+  margin-top: 30px;
+  color: whitesmoke;
+  font-size: 2em;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgb(53, 53, 53);
+}
+
+.homeBanner {
+  background-color: rgb(99, 120, 107);
+  border: lightgrey 2px solid;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 15px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 2em;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgb(53, 53, 53);
+}
+
+/* //////////////// HOMEPAGE CSS BEGINS HERE  ////////////////////////// */
+
+.contentBox {
+  margin: 26px 13px 0px 13px;
+  padding: 10px;
+  background-color: rgb(240, 240, 0);
+  width: 510px;
+  height: auto;
+  border: lightgrey 2px solid;
+  display: inline-block;
+
+}
+
+.contentThumb {
+  background-color: brown;
+  width: 480px;
+  height: 270px;
+  margin: 15px;
+
+}
+
+.button {
+  font-size: 4em;
+  color: whitesmoke;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 0px 0px 4px rgb(53, 53, 53);
+  background-color: rgb(99, 120, 107);
+  margin: 25px 15px 15px 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  transition: all .1s ease-in;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(233, 233, 233);
+  margin: 20px 30px 10px 30px;
+}
+
+#equipment {
+  background-image: url(../images/BounceJPG.jpg);
+}
+
+#equipment:hover {
+  background-image: url(../images/BounceGIF.gif);
+}
+
+#famous {
+  background-image: url(../images/SerenaJPG.jpg);
+}
+
+#famous:hover {
+  background-image: url(../images/SerenaGIF.gif);
+}
+
+#history {
+  background-image: url(../images/HistoryJPG.jpg);
+}
+
+#history:hover {
+  background-image: url(../images/historyGIF.gif);
+}
+
+/* //////////////// HOMEPAGE CSS ENDS HERE  ////////////////////////// */
+/* //////////////// EQUIPMENT CSS BEGINS HERE  ////////////////////////// */
+
+.underImg {
+  width: 700px;
+}
+
+
+.equipmentIMG {
+  width: 550px;
+  margin-bottom: 26px;
+  margin-top: 26px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.equipBannerText {
+  text-align: left;
+  font-size: .6em;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  margin-left: 0.1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.3em;
+}
+
+.equipBannerSubText {
+  font-size: 0.15em;
+  text-align: left;
+  margin-top: -1em;
+  margin-left: 1em;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.textBlock {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.thirdBanner {
+  background-color: rgb(99, 120, 107);
+  border: lightgrey 2px solid;
+  margin-left: 0px;
+  margin-bottom: 40px;
+  padding: 15px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 2em;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgb(53, 53, 53);
+}
+
+/* //////////////// EQUIPMENT CSS ENDS HERE  ////////////////////////// */
+/* //////////////// HALL OF FAME CSS BEGINS HERE  ////////////////////////// */
+
+.famousBannerText {
+  text-align: left;
+  font-size: .6em;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  margin-left: 0.1em;
+  margin-top: 1.5em;
+  margin-bottom: .85em;
+}
+
+.b1 {
+  list-style: none;
+  text-align: left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.b1 li {
+  background: url(../images/4.4TennisBall.gif) no-repeat left center;
+  padding-left: 38px;
+  /* the width of the gif + some space */
+  padding-top: 10px;
+  text-align: left;
+  height: 30px;
+  margin: 3px 0px;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 30px;
+  vertical-align: middle;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+img.a {
+  vertical-align: -38%;
+}
+
+/* //////////////// HALL OF FAME CSS ENDS HERE  ////////////////////////// */
+
+/* //////////////// HISTORY CSS THROUGHOUT  ////////////////////////// */
+
+/* //////////////// SOURCES CSS ////////////////////////// */
+
+.b2 {
+  list-style: none;
+}
+
+.b2 li {
+  background: url(../images/4.4TennisBall.gif) no-repeat left center;
+  padding-left: 38px;
+  /* the width of the gif + some space */
+  padding-top: 13px;
+  text-align: left;
+  min-height: 35px;
+  height: auto;
+  margin: 3px 0px;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
